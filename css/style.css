@@ -488,6 +488,7 @@ img {
 
 .footer-icon {
   fill: #f4f4fd;
+  margin-left: 16px;
 }
 
 .footer-div-container {
@@ -502,6 +503,11 @@ img {
   background-color: transparent;
   padding-left: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
 }
 
 .footer-input::placeholder {
@@ -509,7 +515,7 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-input-btn {
@@ -526,8 +532,10 @@ img {
   background-color: #4d5ae5;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   border: none;
+  min-width: 165px;
 }
 
 .footer-input-btn:hover {
